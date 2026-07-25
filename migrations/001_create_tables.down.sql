@@ -1,0 +1,4 @@
+DROP TABLE IF EXISTS rate_limits;
+DROP TABLE IF EXISTS auth_configs;
+DROP TABLE IF EXISTS backends;
+DROP TABLE IF EXISTS routes;
