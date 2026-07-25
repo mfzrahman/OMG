@@ -1,0 +1,14 @@
+services:
+  server:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      PORT: "8080"
+      DATABASE_PATH: /data/omg.db
+      LOG_LEVEL: debug
+    volumes:
+      - data:/data
+
+volumes:
+  data:
